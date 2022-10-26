@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asian Cuisine Poll</title>
+        <link rel="stylesheet" href="recipe.css">
+    </head>
+    <body>
+        <nav>
+            <a style="text-decoration:none" href="./index.html">Home</a>
+            <a style="text-decoration:none" href="./form.html">Form</a>
+            <a style="text-decoration:none" href="./recipes.html">Recipes</a>
+        </nav>
+        <form action="send-URL" method="post">
+            <fieldset>
+                <legend><strong>Asian Cuisine Poll</strong></legend>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <p><strong>Favorite Cuisine to Cook</strong></p>
+                    <input type="radio" id="japanese" name="cuisine" value="japanese">
+                    <label for="japanese">Japanese</label>
+                    <input type="radio" id="chinese" name="cuisine" value="chinese">
+                    <label for="chinese">Chinese</label>
+                    <input type="radio" id="korean" name="cuisine" value="korean">
+                    <label for="korean">Korean</label>
+                    <input type="radio" id="other" name="cuisine" value="other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other" name="cuisine">
+                </div>
+
+                <div>
+                    <p><strong>Favorite Cuisine to Eat</strong></p>
+                    <input type="radio" id="japanese" name="cuisine" value="japanese">
+                    <label for="japanese">Japanese</label>
+                    <input type="radio" id="chinese" name="cuisine" value="chinese">
+                    <label for="chinese">Chinese</label>
+                    <input type="radio" id="korean" name="cuisine" value="korean">
+                    <label for="korean">Korean</label>
+                    <input type="radio" id="other" name="cuisine" value="other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other" name="cuisine">
+                </div>
+
+            </br>
+
+                <div>
+                    <label for="favoriteDish">Favorite Dish</label>
+                    <input type="text" id="favoriteDish" name="favoriteDish">
+                </div>
+
+            </br>
+
+                <div>
+                    <label for="shareRecipe">Share your recipe!</label>
+                    <textarea id="shareRecipe" name="shareRecipe"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
